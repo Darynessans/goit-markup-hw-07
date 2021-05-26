@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,AAAC,CACZ,OAAO,CAAE,KAAK,CACd,aAAa,CAAE,IAAI,CAEnB,KAAK,CAAE,kBAAkB,CAEzB,WAAW,CAAE,mBAAmB,CAChC,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,IAAI,CAErB,UAAU,CAAE,KAAK,CAAC,KAAK,CAAC,mBAAmB,CAC5C,AACD,AAAA,aAAa,AAAA,MAAM,CACnB,aAAa,AAAA,MAAM,AAAC,CAClB,KAAK,CAAE,mBAAmB,CAC3B",
+    "sources": [
+        "../sass/components/+footer-logo.scss"
+    ],
+    "names": [],
+    "file": "+footer-logo.min.css"
+}

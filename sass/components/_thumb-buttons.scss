@@ -1,0 +1,39 @@
+.thumb {
+  padding-top: 94px;
+}
+.buttons-list {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-list__item + .buttons-list__item {
+  margin-left: 8px;
+}
+.buttons-list__button {
+  padding: 6px 22px;
+  border-radius: 4px;
+  display: inline-block;
+
+  border: 1px solid transparent;
+
+  color: $title-text-color;
+
+  font-family: inherit;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  transition: box-shadow 250ms $cubic-bezier, color 250ms $cubic-bezier,
+    background-color 250ms $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+
+    color: $white-color;
+    background-color: $accent-color;
+  }
+}

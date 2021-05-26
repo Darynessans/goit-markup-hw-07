@@ -1,0 +1,50 @@
+.benefits-decor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.benefits {
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.benefits-points__point {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+
+  color: $title-text-color;
+}
+
+.benefits-points {
+  display: flex;
+}
+
+.benefits-points__item {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.benefits-points__text {
+  color: $primary-text-color;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.benefits-points__text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
